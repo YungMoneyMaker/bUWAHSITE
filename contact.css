@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+a:visited {
+	text-decoration: none; 
+	color:black;
+}
+h1 {
+	color: white;
+	font-family: Arial;
+	font-size: 300%; 
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+h2 {
+	color: white;
+	font-family: Arial;
+	font-size: 250%; 
+	text-decoration: underline; 
+	text-decoration-style: bold;
+}
+p {
+	color: white;
+	font-family: Arial;
+	font-size: 200%;
+}
+body {
+	background-image: url("black_background.jpg");
+}
+button {
+	background-color: white; 
+	border: black; border-radius: 12px; 
+	padding: 6px 14px; 
+	font-size: 12px;
+}
+button:hover {
+	background-color: gray;
+	color: white;
+}
+</style>
+</head>
+</html>
