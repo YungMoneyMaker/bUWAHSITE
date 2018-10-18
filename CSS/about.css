@@ -21,15 +21,15 @@ h2 {
 	text-decoration: underline;
 	text-decoration-style: solid;
 }
-h3 {
-	color: white;
-	font-family: Arial;
-	font-size: 200%;
-}
 body {
 	background-image: url("../IMAGES/dark_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+h3 {
+	color: white;
+	font-family: Arial;
+	font-size: 200%;
 }
 img {
 	display: block;
