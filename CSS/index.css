@@ -19,7 +19,7 @@ h2 {
 	font-size: 250%;
 }
 body {
-	background-image: url("IMAGES/dark_background.jpg");
+	background-image: url("/IMAGES/dark_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
