@@ -25,20 +25,15 @@ p {
 	font-family: Arial;
 	font-size: 200%;
 }
-button {
-	background-color: white; 
-	border: black; border-radius: 12px; 
-	padding: 6px 14px; 
-	font-size: 12px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 body {
 	background-image: url("../IMAGES/dark_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-}
-button:hover {
-	background-color: gray;
-	color: white;
 }
 </style>
 </head>

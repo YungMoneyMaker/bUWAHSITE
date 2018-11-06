@@ -35,15 +35,10 @@ img {
 	margin-right: auto;
 	border: 3px solid white;
 }
-button {
-	background-color: white; 
-	border: black; border-radius: 12px; 
-	padding: 6px 14px;
-	font-size: 12px;
-}
-button:hover {
-	background-color: gray;
-	color: white;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 video {
 	display: block;
