@@ -30,6 +30,23 @@ ul {
     margin: 0;
     padding: 0;
 }
+li {
+    float: left; 
+    border-right: 1px solid white;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: gray;
+}
 body {
 	background-image: url("../IMAGES/dark_background.jpg");
 	background-repeat: no-repeat;
