@@ -18,33 +18,24 @@ h2 {
 	font-family: Arial;
 	font-size: 250%;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+button {
+	background-color: white; 
+	border: black; border-radius: 12px; 
+	padding: 6px 14px;
+	font-size: 12px;
 }
-li {
-    float: left; 
-    border-right: 1px solid white;
-}
-li:last-child {
-    border-right: none;
-}
-li a {
-    display: block;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: #555;
-    color: gray;
-}
+/* Background Image */ 
 body {
 	background-image: url("../IMAGES/dark_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+/* Navigation Button */
+button:hover {
+	background-color: gray;
+	color: white;
+}
+/*
 img {
 	display: block;
 	margin-left: auto;
