@@ -19,7 +19,7 @@ h2 {
 	text-decoration-style: solid;
 }
 body {
-	background-image: url("/IMAGES/dark_background.jpg");
+	background-image: url("../IMAGES/dark_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
