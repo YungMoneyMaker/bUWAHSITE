@@ -18,24 +18,28 @@ h2 {
 	font-family: Arial;
 	font-size: 250%;
 }
-button {
-	background-color: white; 
-	border: black; border-radius: 12px; 
-	padding: 6px 14px;
-	font-size: 12px;
-}
 /* Background Image */ 
 body {
 	background-image: url("../IMAGES/dark_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+li {
+    float: left; 
+    border-right: 1px solid white;
 }
-/* Navigation Button */
-button:hover {
-	background-color: gray;
-	color: white;
+li:last-child {
+    border-right: none;
 }
-/*
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: gray;
+}
 img {
 	display: block;
 	margin-left: auto;
