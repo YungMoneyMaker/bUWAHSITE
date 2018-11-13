@@ -1,3 +1,7 @@
+//innerHTML code
+function myFunction() {
+    document.getElementById("Ping!, Pong!").innerHTML = "Pong!";
+}
 //Javascript Name and Colour Game// 
 function A1(){
 	var fName = prompt("Wagawn fham saying you have a nameazz??");
