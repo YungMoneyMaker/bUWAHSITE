@@ -9,7 +9,7 @@ p {
 }
 a:visited {
 	text-decoration: none; 
-	color:black;
+	color: white;
 }
 h1 {
 	color: white;
@@ -50,7 +50,7 @@ li {
     border-right: 1px solid white;
 }
 li:last-child {
-    border-right: none;
+    border-right: none; color 
 }
 li a {
     display: block;
@@ -59,7 +59,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #555;
+    background-color: gray;
     color: gray;
 }
 video {
