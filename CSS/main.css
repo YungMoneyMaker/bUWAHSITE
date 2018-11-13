@@ -2,6 +2,11 @@
 <html>
 <head>
 <style>
+p{
+	color:white;
+	font-size: 150%
+	font-family: Arial;
+}
 a:visited {
 	text-decoration: none; 
 	color:black;
