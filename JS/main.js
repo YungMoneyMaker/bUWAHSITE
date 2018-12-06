@@ -11,7 +11,7 @@ function A1(){
 	}
 }
 //Obtaints 2 numbers from the user and reponds with the larger interger 
-function largernum () {
+function largernum() {
 	prompt("Enter 2 integers and I will respond with the larger number.")
 	var num1 = ("Please input the first integer.")
 	var num2 = ("Please input your second integer.")
@@ -26,7 +26,7 @@ function largernum () {
 	}
 }
 //Multiply integers given by the user
-function multiplynum () {
+function multiplynum() {
 	prompt("In this game I will multiply 3 integers you give me!")
 	numA = ("Enter the first integer")
 	numB = ("Enter the second integer")
@@ -52,7 +52,7 @@ function assignment A4() {
 	}
 }
 //Triangle made out of astrics 
-function assignment B4 () {
+function assignment B4() {
 	var numZ = prompt ("How many intervals do you want in the triangle?")
 	var stars = " *"
 	numZ -= 1;
