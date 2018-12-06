@@ -35,7 +35,7 @@ function multiplynum() {
 	alert("The product of the integers is " + numA * numB * numC);
 }
 //Assignment 4 
-function assignment A4() {
+function assignmentA4() {
 	for (let i = 1; i <= 100 i++){
 		if (i%3 === 0 && i%5 === 0) {
 			console.log("FizzBuzz")
@@ -52,7 +52,7 @@ function assignment A4() {
 	}
 }
 //Triangle made out of astrics 
-function assignment B4() {
+function assignmentB4() {
 	var numZ = prompt ("How many intervals do you want in the triangle?")
 	var stars = " *"
 	numZ -= 1;
