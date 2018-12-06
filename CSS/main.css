@@ -36,6 +36,21 @@ h3 {
 	font-family: Arial;
 	font-size: 200%;
 }
+p {
+	color: white;
+	font-family: Arial;
+	font-size: 145%;
+}
+button {
+	background-color: white;
+	font-size: 12px;
+	padding: 10px 24px;
+	border: 2px;
+}
+button:hover {
+	background-color: gray;
+	color: white;
+}
 img {
 	display: block;
 	margin-left: auto;
