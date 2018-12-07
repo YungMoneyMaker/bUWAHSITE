@@ -12,9 +12,9 @@ function A1(){
 }
 //Obtaints 2 numbers from the user and reponds with the larger interger 
 function largernum() {
-	prompt("Enter 2 integers and I will respond with the larger number.");
-	var num1 = ("Please input the first integer.");
-	var num2 = ("Please input your second integer.");
+	alert("Enter 2 integers and I will respond with the larger number. Press 'OK' to continue!");
+	var num1 = prompt("Please input the first integer.");
+	var num2 = prompt("Please input your second integer.");
 	if (num1 == num2) {
 		alert("These 2 integers are the same, please input 2 different integers!");
 	}
@@ -27,51 +27,56 @@ function largernum() {
 }
 //Multiply integers given by the user
 function multiplynum() {
-	prompt("In this game I will multiply 3 integers you give me!");
-	numA = ("Enter the first integer");
-	numB = ("Enter the second integer");
-	numC = ("Enter the third integer");
+	alert("In this game I will multiply 3 integers you give me. Press 'OK' to continue!");
+	numA = prompt("Enter the first integer");
+	numB = prompt("Enter the second integer");
+	numC = prompt("Enter the third integer");
 
 	alert("The product of the integers is " + numA * numB * numC);
 }
 //Assignment 4 
 function assignmentA4() {
+	prompt("Press 'OK' to play FizzBuzz")
 	for (let i = 1; i <= 100; i++){
 		if (i%3 === 0 && i%5 === 0) {
-			console.log("FizzBuzz");
+			alert("FizzBuzz");
 		}
 		else if (i%3 === 0) {
-			console.log("Fizz");
+			alert("Fizz");
 		}
 		else if (i%3 === 0) {
-			console.log("Buzz");
+			alert("Buzz");
 		}
 		else {
-			console.log(i);
+			alert(i);
 		}
 	}
 }
 //Triangle made out of astrics 
 function assignmentB4() {
+	alert("I will create a star based off how many intervals you whish to create.  Press 'OK' to continue!")
 	var numZ = prompt ("How many intervals do you want in the triangle?");
 	var stars = " *";
 	numZ -= 1;
-	console.log("'"+stars+" '");
+	alert("'"+stars+" '");
 	for (let i = 0; i <numZ; i++){
 		stars += " *";
-		console.log("'"+stars+" '");
+		alert("'"+stars+" '");
 	}
 }
 //encryption assignemnt 
-function enc() {
-	var regularmessage = prompt ("Enter a message you wish to encrypt!");
-	var ciphertext = " "; 
-	var wordlist = plaintext.split(' ');
-	var alp = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
-	for (var i = 0; i = worlist.length; i++) {
-		check = alp.indexOf(wordlist[i]);
-		cp=Math.cell((check * 2) / 5);
-		ciphertext = ciphertext +alp[cp];
+function encryption() {
+	alert("I will encrypt a message you input. Press'OK' to begin!")
+	varplaintext = prompt("Enter a message you would like to encrypt in 'Pig Latin'!")
+	plaintext = plaintext.toLowerCase();
+
+	var ciphertext = "";
+	var wordlist = plaintext.split(" ");
+
+	for (var i = 0 < wordlist.length; i++;) {
+		ciphertext = ciphertext + wordlist[i][0]+"ay ";
 	}
-	console.log(ciphertext);
+	else {
+		ciphertext = ciphertext + wordlist[i]+ " ";
+	}
 }

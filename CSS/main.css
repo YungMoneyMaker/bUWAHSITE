@@ -43,9 +43,10 @@ p {
 }
 button {
 	background-color: white;
-	font-size: 12px;
+	font-size: 18px;
 	padding: 10px 24px;
 	border: 2px;
+	font-family: Arial;
 }
 button:hover {
 	background-color: gray;
